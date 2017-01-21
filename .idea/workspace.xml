@@ -1,144 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea27f85e-67c7-4f79-8b67-943a05bf0cf5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/atlassian-ide-plugin.xml" afterPath="$PROJECT_DIR$/.idea/atlassian-ide-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/CHANGES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/build-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/contents.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/contents.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/bn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/de-ch.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/de-ch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/gu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sr-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/tt.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/css/samples.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/css/samples.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/index.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/js/sample.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/js/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/ajax.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/ajax.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/api.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/api.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/appendto.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/appendto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/assets/posteddata.php" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/assets/posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/datafiltering.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/datafiltering.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/dialog/dialog.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/dialog/dialog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/divreplace.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/divreplace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/enterkey/enterkey.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/enterkey/enterkey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/index.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/inlineall.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/inlineall.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/inlinebycode.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/inlinebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/inlinetextarea.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/inlinetextarea.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/jquery.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/jquery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/magicline/magicline.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/magicline/magicline.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/readonly.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/readonly.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/replacebyclass.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/replacebyclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/replacebycode.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/replacebycode.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/sample.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/sample.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/sample.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/sample_posteddata.php" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/sample_posteddata.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/tabindex.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/tabindex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/toolbar/toolbar.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/toolbar/toolbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/uicolor.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/uicolor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/uilanguages.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/uilanguages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/xhtmlstyle.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/old/xhtmlstyle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/index.html" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_ie.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_ie7.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_ie8.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_iequirks.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/dialog_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_gecko.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/editor_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/skins/moono/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/styles.js" afterPath="$PROJECT_DIR$/lib/AdminLTE-2.3.11/plugins/ckeditor/styles.js" />
-    </list>
+    <list default="true" id="ea27f85e-67c7-4f79-8b67-943a05bf0cf5" name="Default" comment="" />
     <ignored path="converge.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -158,7 +21,7 @@
     <favorites_list name="converge" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="dashboard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/AdminLTE-2.3.11/dist/js/pages/dashboard.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -172,8 +35,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            <state relative-caret-position="320">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -248,8 +111,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,26 +161,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="converge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="converge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AdminLTE-2.3.11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -642,6 +487,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -975,6 +821,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -1153,45 +1005,45 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1061000" />
+    <option name="totallyTimeSpent" value="1073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="The R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="News Feed" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1223,6 +1075,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AdminLTE-2.3.11/dist/css/skins/_all-skins.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AdminLTE-2.3.11/dist/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/AdminLTE-2.3.11/dist/css/skins/_all-skins.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1233,8 +1109,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="662">
+          <caret line="1532" column="7" selection-start-line="1532" selection-start-column="7" selection-end-line="1532" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AdminLTE-2.3.11/dist/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/AdminLTE-2.3.11/dist/css/skins/_all-skins.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
