@@ -334,7 +334,7 @@
             <form action="#" method="get" class="sidebar-form">
                 <div class="input-group">
                     <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
+                    <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
               </span>
@@ -346,14 +346,18 @@
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa fa-dashboard"></i> <span>Ships</span>
+                        <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span>
                     </a>
                     <ul class="treeview-menu" style="display: none;">
-                        <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                        <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
+                        <li><a href="index.html"><i class="fa fa-circle-o"></i> Ship 1</a></li>
+                        <li class="active">
+                            <a href="index2.html"><i class="fa fa-circle-o"></i> Ship 2 <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+                            <ul class="treeview-menu" style="display: none;">
+                                <li><a href="index.html"><i class="fa fa-circle-o"></i> Ship 2 stuff </a></li>
+                                <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Yas kween </a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -362,10 +366,7 @@
     </aside>
 
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper" style="min-height: 901px;">
-
-
-    </div>
+    <div class="content-wrapper" style="min-height: 901px;"></div>
 
 
     <aside class="control-sidebar control-sidebar-dark">
