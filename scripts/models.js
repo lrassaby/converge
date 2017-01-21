@@ -1,7 +1,7 @@
 /**
  * Created by lerenzo on 1/21/17.
  */
-(function(){
+$(function(){
     var cities = [
         {
             name: "Kepall",
@@ -63,4 +63,4 @@
 
     window.cities = cities;
     window.ships = generateShips();
-})();
+});
