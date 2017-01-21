@@ -54,7 +54,7 @@
         for(var i = 0; i < Math.floor(Math.random()*100); i++){
             ships.push({
                 id: i,
-                origin: cities[i%(cities.length - 1)]
+                origin: cities[i%(cities.length - 1)],
                 destination: cities[Math.floor(Math.random()*(cities.length - 1))]
             })
         }
@@ -62,5 +62,5 @@
     }
 
     window.cities = cities;
-    window.ships = generateShips()
+    window.ships = generateShips();
 })();
