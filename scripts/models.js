@@ -235,6 +235,7 @@
         for (var i = 0; i < 10; i++) {
             var convoy = new Convoy();
             convoy.id = i;
+            convoy.ships = generateShips();
             convoys.push(convoy);
         }
         return convoys;
