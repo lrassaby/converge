@@ -46,7 +46,19 @@
         var curCount = window.currentConvoyView.find(".convoyShipCount").text();
         window.currentConvoyView.find(".convoyShipCount").text(parseInt(curCount) + 1);
 
+        var markerId = `#convoy_${window.currentConvoy.id}`
         $(`#convoy_${window.currentConvoy.id}`).addClass("bg-primary"); //doesnt rerender the marker
-
+        for (i in markers) {
+            if (markers[i].id == markerId) {
+                markers[i].setIcon({
+                    path: "M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0",
+                    fillColor: '#3C8DBC',
+                    fillOpacity: .8,
+                    anchor: new google.maps.Point(0,0),
+                    strokeWeight: 0,
+                    scale: 0.5
+                })
+            }
+        }
     })
 })();
