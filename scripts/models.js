@@ -220,8 +220,7 @@
         this.advance = function() {
             if (this.progress > 1) {
                 this.progress = 0;
-                this.direction = -1 * this.direction;
-                // this.positionIndex = this.positionIndex + this.direction;
+                this.positionIndex = this.positionIndex + this.direction;
             }
             this.progress = this.progress + this.speed * this.direction / haversine(this.previousStop(), this.nextStop());
         };
