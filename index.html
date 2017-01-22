@@ -349,7 +349,8 @@
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>Ships</span>
+                        <i class="fa fa-dashboard"></i> <span>My Ships</span>&nbsp;&nbsp;&nbsp;<span id="shipCount"
+                                                                                                     class="label label-danger">0</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                             <!-- Button trigger modal -->
@@ -363,12 +364,13 @@
                 </li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>Convoys</span>
+                        <i class="fa fa-dashboard"></i> <span>Convoys</span>&nbsp;&nbsp;&nbsp;<span id="convoyCount"
+                                                                                                    class="label label-danger">4</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                             <!-- Button trigger modal -->
                             <!--<button type="button" class="btn btn-success btn-xs special-add-btn" data-toggle="modal"-->
-                                    <!--data-target="#newConvoyModal"><i class="fa fa-plus bg-green"></i></button>-->
+                            <!--data-target="#newConvoyModal"><i class="fa fa-plus bg-green"></i></button>-->
 
 
                         </span>
@@ -425,21 +427,15 @@
                         aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="newShipModalLabel">Add New Ship</h4>
             </div>
-            <div class="modal-body">
-                <form id="newShipForm">
-                    <label>Name:</label>
-                    <input type="text"/>
+                <div class="modal-body">
+                    <form id="newShipForm">
+                        <input class="form-control input-lg" type="text" placeholder="Ship Name">
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button id="saveShip" type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+                </div>
 
-                    <label>Origin:</label>
-                    <select id="origins"></select>
-
-                    <label>Destination:</label>
-                    <select id="destinations"></select>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
-            </div>
         </div>
     </div>
 </div>
