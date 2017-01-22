@@ -46,7 +46,7 @@
         var curCount = window.currentConvoyView.find(".convoyShipCount").text();
         window.currentConvoyView.find(".convoyShipCount").text(parseInt(curCount) + 1);
 
-        $(`#convoy_${window.currentConvoy.id}`).css("background-color", "#FF0000"); //doesnt rerender the marker
+        $(`#convoy_${window.currentConvoy.id}`).addClass("bg-primary"); //doesnt rerender the marker
 
     })
 })();

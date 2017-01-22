@@ -27,8 +27,8 @@
          var $convoyView = $(`<li id="convoy_${convoy.id}">
                     <a href="index.html"></i> Convoy ${convoy.id} <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
                     <ul class="treeview-menu" style="display: none;">
-                        <div class="box box-solid">
-                            Ships: <span class="convoyShipCount">${convoy.ships.length}</span>&nbsp;&nbsp;&nbsp;
+                        <div>
+                            <span class="label bg-green">Ships: <span class="convoyShipCount">${convoy.ships.length}</span></span>&nbsp;&nbsp;&nbsp;
                             <button type="button" class="btn btn-success btn-xs special-add-btn" data-toggle="modal"
                                     data-target="#addShipToConvoyModal"><i class="fa fa-plus bg-green"></i></button>
                         </div>
