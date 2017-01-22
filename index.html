@@ -25,9 +25,10 @@
         <!-- Logo -->
         <a href="index.html" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>A</b>LT</span>
+            <span class="logo-mini"><i class="fa fa-ship" aria-hidden="true"></i></span>
+
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Admin</b>LTE</span>
+            <span class="logo-lg"><i class="fa fa-ship" aria-hidden="true"></i> <b>Converge</b> </span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -336,7 +337,7 @@
             <form action="#" method="get" class="sidebar-form">
                 <div class="input-group">
                     <input type="text" name="q" class="form-control" placeholder="Search...">
-              <span class="input-group-btn">
+                    <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
               </span>
@@ -348,15 +349,16 @@
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="treeview">
                     <a href="#">
-                        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
+                        <i class="fa fa-dashboard"></i> <span>Ships</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-success btn-xs special-add-btn" data-toggle="modal" data-target="#newShipModal"><i class="fa fa-plus bg-green"></i></button>
+
+
+                        </span>
                     </a>
-                    <ul class="treeview-menu" style="display: none;">
-                        <li><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-                        <li class="active"><a href="index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-                    </ul>
+                    <ol id="shipsListView" class="treeview-menu" style="display: none;"></ol>
                 </li>
             </ul>
         </section>
@@ -366,19 +368,19 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper" style="min-height: 901px;">
         <!--<section class="content-header">-->
-            <!--<h1>-->
-                <!--Dashboard-->
-                <!--<small>Version 2.0</small>-->
-            <!--</h1>-->
-            <!--<ol class="breadcrumb">-->
-                <!--<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>-->
-                <!--<li class="active">Dashboard</li>-->
-            <!--</ol>-->
+        <!--<h1>-->
+        <!--Dashboard-->
+        <!--<small>Version 2.0</small>-->
+        <!--</h1>-->
+        <!--<ol class="breadcrumb">-->
+        <!--<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>-->
+        <!--<li class="active">Dashboard</li>-->
+        <!--</ol>-->
         <!--</section>-->
         <!--<section class="content">-->
-            <div class="map-wrapper">
-                <div id="map"></div>
-            </div>
+        <div class="map-wrapper">
+            <div id="map"></div>
+        </div>
         <!--</section>-->
     </div>
 
@@ -398,6 +400,34 @@
     <div class="control-sidebar-bg" style="position: fixed; height: auto;"></div>
 
 </div>
+
+<!-- Modal -->
+<div class="modal fade" id="newShipModal" tabindex="-1" role="dialog" aria-labelledby="newShipModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="newShipModalLabel">Add New Ship</h4>
+            </div>
+            <div class="modal-body">
+                <form id="newShipForm">
+                    <label>Name:</label>
+                    <input type="text"/>
+
+                    <label>Origin:</label>
+                    <select id="origins"></select>
+
+                    <label>Destination:</label>
+                    <select id="destinations"></select>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- jQuery 3.1.1 -->
 <script src="lib/jquery/jquery-3.1.1.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
@@ -410,9 +440,12 @@
 <!--<script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>-->
 <!--&lt;!&ndash; ChartJS 1.0.1 &ndash;&gt;-->
 <!--<script src="plugins/chartjs/Chart.min.js"></script>-->
-<script src="scripts/app.js"></script>
+
 <script src="scripts/map.js"></script>
+<script src="scripts/models.js"></script>
+<script src="scripts/views.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBl-qZBqR9IZhW-ZWTn0ixheautw4FOUvc&callback=initMap" async
         defer></script>
+<script src="scripts/app.js"></script>
 </body>
 </html>
