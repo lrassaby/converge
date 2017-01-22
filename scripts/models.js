@@ -207,10 +207,10 @@
         this.id = id;
         this.ships = ships || [];
         this.line = lineKeys[randomIndex(lineKeys)];
-        this.positionIndex = 2 + Math.floor(randomIndex(lines[this.line]) / 2);
         this.progress = Math.random() / 5; // between 0 and 1
-        this.speed = 1;
-        this.direction = 1;
+        this.speed = 1 + Math.random();
+        this.direction = -1 ? Math.random() < 0.5 : 1;
+        this.positionIndex = Math.floor(randomIndex(lines[this.line]));
         this.previousStop = function() {
             return lines[this.line][this.positionIndex];
         };
@@ -218,6 +218,11 @@
             return lines[this.line][this.positionIndex + this.direction];
         };
         this.advance = function() {
+            if (this.progress > 1) {
+                this.progress = 0;
+                this.direction = -1 * this.direction;
+                // this.positionIndex = this.positionIndex + this.direction;
+            }
             this.progress = this.progress + this.speed * this.direction / haversine(this.previousStop(), this.nextStop());
         };
         this.position = function() {
