@@ -1,0 +1,10 @@
+.ship-img > img {
+    width:100%;
+    padding: 10px;
+}
+
+.special-add-btn {
+    margin-right: 5px;
+    bottom: 5px;
+    line-height:10px;
+}
