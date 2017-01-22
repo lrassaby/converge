@@ -173,8 +173,18 @@
         "europeSouthAmerica": combineRoutes(["gibraltarToRio", "rioToNorthGibraltar"]),
         "asiaNorthAmerica": combineRoutes(["shanghaiToPanama", "panamaToGibraltar"]),
         "northAmericaSouthAmericaAfrica": combineRoutes(["houstonToPortoLaCruz", "portoLaCruzToCapeTown"]),
-        "newYorkLondon": combineRoutes(["newYorkLondon"])
+        "northAmericaEurope": combineRoutes(["newYorkLondon"])
     };
+
+    //
+    // function generateRandomConvoys(lines) {
+    //     for
+    // }
+    //
+    //
+    // var convoys = {
+    //
+    // };
 
     window.routes = routes;
     window.lines = lines;
