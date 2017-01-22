@@ -271,13 +271,14 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+                            <!--<img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">-->
+                            <i class="fa fa-user-o"></i>
                             <span class="hidden-xs">Alexander Pierce</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                                <img src="./img/ami-hipster-boy.png" class="img-circle" alt="User Image">
 
                                 <p>
                                     Alexander Pierce - Web Developer
@@ -326,7 +327,7 @@
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                    <img src="./img/ami-hipster-boy.png" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
                     <p>Alexander Pierce</p>
@@ -435,6 +436,26 @@
                 <div class="modal-footer">
                     <button id="saveShip" type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
                 </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addShipToConvoyModal" tabindex="-1" role="dialog" aria-labelledby="addShipToConvoyModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="addShipToConvoyModalLabel">Add Ship to Convoy</h4>
+            </div>
+            <div class="modal-body">
+                <form id="addShipToConvoyForm">
+                    <select id="shipsFromUser"></select>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button id="saveShipToConvoy" type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+            </div>
 
         </div>
     </div>
