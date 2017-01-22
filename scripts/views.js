@@ -22,4 +22,16 @@
                     
                 </li>`;
     };
+
+    window.convoyView = function(convoy){
+        return `<li>
+                    <a href="index.html"></i> Convoy ${convoy.id} <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
+                    <ul class="treeview-menu" style="display: none;">
+                        <div class="box box-solid">
+                            This is some stuff
+                        </div>
+                    </ul>
+                    
+                </li>`
+    }
 })();

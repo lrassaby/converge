@@ -4,8 +4,11 @@
     let $shipsList = $("#shipsListView");
     $shipsList.append(window.ships.map(ship => window.shipView(ship)));
 
-    //add cities to new ship form
+    //add ships to list
+    let $convoyList = $("#convoyListView");
+    $convoyList.append(window.convoys.map(convoy => window.convoyView(convoy)));
 
+    //add cities to new ship form
     let $origins = $("#origins"),
         $destinations = $("#destinations");
 
