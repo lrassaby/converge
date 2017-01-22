@@ -69,9 +69,9 @@
     function generateConvoys(){
         var convoys = [];
         for(var i = 0; i < Math.floor(Math.random()*100); i++){
-            convoys.push({
-                id: i
-            })
+            var convoy = new Convoy();
+            convoy.id = i;
+            convoys.push(convoy)
         }
         return convoys
     }
