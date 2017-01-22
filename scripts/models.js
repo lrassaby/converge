@@ -48,14 +48,14 @@
         }
     ];
 
+    function Ship(id){
+        this.id = id;
+    }
+
     function generateShips(){
         var ships = [];
         for(var i = 0; i < Math.floor(Math.random()*100); i++){
-            ships.push({
-                id: i,
-                origin: cities[i%(cities.length - 1)],
-                destination: cities[Math.floor(Math.random()*(cities.length - 1))]
-            })
+            ships.push(new Ship(new Date().toISOString() + i))
         }
         return ships
     }
@@ -180,22 +180,26 @@
 
     window.routes = routes;
     window.lines = lines;
-    var Convoy = function(ships){
+    var Convoy = function(id, ships){
+        this.id = id;
         this.ships = ships || [];
     };
     Convoy.prototype.addShip = function(ship){this.ships.push(ship)};
 
+    var ships = [];
+
     function generateConvoys(){
         var convoys = [];
         for(var i = 0; i < Math.floor(Math.random()*100); i++){
-            var convoy = new Convoy();
+            var convoy = new Convoy(i, generateShips());
             convoy.id = i;
-            convoys.push(convoy)
+            convoys.push(convoy);
+            ships = ships.concat(convoy.ships);
         }
         return convoys
     }
 
     window.convoys = generateConvoys();
     window.cities = cities;
-    window.ships = generateShips();
+    window.ships = ships;
 })();
