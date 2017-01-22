@@ -2,12 +2,17 @@ var map;
 
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
+    var mapOptions = {
         zoom: 2,
         center: new google.maps.LatLng(0, 0),
-        mapTypeId: 'terrain'
+        styles: mapStyles,
+        mapTypeControl: false,
+        scaleControl: true,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
         //    https://developers.google.com/maps/documentation/javascript/styling TODO
-    });
+    };
+
+    map = new google.maps.Map(document.getElementById('map'), mapOptions);
     //http://stackoverflow.com/questions/29810345/using-google-maps-polyline-to-draw-bezier-curve TODO
 
     google.maps.event.addListener(map, 'click', function (event) {
@@ -121,12 +126,19 @@ function addLines() {
         {lat: 49.52520834197442, lng: -3.9111328125}
     ];
 
+    var panamaToGibraltar = [
+        {lat: 11.43695521614319, lng: -78.4423828125},
+        {lat: 16.97274101999902, lng: -63.8525390625},
+        {lat: 19.02057711096681, lng: -60.7763671875},
+        {lat: 37.54457732085582, lng: -10.37109375}
+    ];
+
     var asiaEurope = new google.maps.Polyline({
         path: shanghaiToHongKong.concat(hongKongToSingapore).concat(singaporeToPortSaid).concat(portSaidToGibrlatar).concat(gibraltarToRotterdam),
         geodesic: true,
         strokeColor: '#FF0000',
-        strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeOpacity: 0.5,
+        strokeWeight: 5
     });
 
 
@@ -134,17 +146,17 @@ function addLines() {
         path: gibraltarToRio.concat(rioToNorthGibraltar),
         geodesic: true,
         strokeColor: '#00FF00',
-        strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeOpacity: 0.5,
+        strokeWeight: 5
     });
 
 
     var asiaNorthAmerica = new google.maps.Polyline({
-        path: shanghaiToPanama,
+        path: shanghaiToPanama.concat(panamaToGibraltar),
         geodesic: true,
         strokeColor: '#0000FF',
-        strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeOpacity: 0.5,
+        strokeWeight: 5
     });
 
 
@@ -152,16 +164,16 @@ function addLines() {
         path: houstonToPortoLaCruz.concat(portoLaCruzToCapeTown),
         geodesic: true,
         strokeColor: '#FF00FF',
-        strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeOpacity: 0.5,
+        strokeWeight: 5
     });
 
     var northAmericaEurope = new google.maps.Polyline({
         path: newYorkLondon,
         geodesic: true,
         strokeColor: '#00FFFF',
-        strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeOpacity: 0.5,
+        strokeWeight: 5
     });
 
     asiaEurope.setMap(map);
@@ -173,16 +185,9 @@ function addLines() {
 
 function renderMarkers() {
 
-    var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
     var icons = {
-        parking: {
-            icon: iconBase + 'parking_lot_maps.png'
-        },
-        library: {
-            icon: iconBase + 'library_maps.png'
-        },
-        info: {
-            icon: iconBase + 'info-i_maps.png'
+        ship: {
+            icon: iconBase + 'images/ship.svg'
         }
     };
 
@@ -197,61 +202,61 @@ function renderMarkers() {
     var features = [
         {
             position: new google.maps.LatLng(-33.91721, 151.22630),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91539, 151.22820),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91747, 151.22912),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91910, 151.22907),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91725, 151.23011),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91872, 151.23089),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91784, 151.23094),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91682, 151.23149),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91790, 151.23463),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91666, 151.23468),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.916988, 151.233640),
-            type: 'info'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91662347903106, 151.22879464019775),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.916365282092855, 151.22937399734496),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91665018901448, 151.2282474695587),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.919543720969806, 151.23112279762267),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91608037421864, 151.23288232673644),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91851096391805, 151.2344058214569),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91818154739766, 151.2346203981781),
-            type: 'parking'
+            type: 'ship'
         }, {
             position: new google.maps.LatLng(-33.91727341958453, 151.23348314155578),
-            type: 'library'
+            type: 'ship'
         }
     ];
 
@@ -259,3 +264,5 @@ function renderMarkers() {
         addMarker(feature);
     }
 }
+
+var mapStyles = [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"color":"#000000"},{"lightness":13}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#144b53"},{"lightness":14},{"weight":1.4}]},{"featureType":"landscape","elementType":"all","stylers":[{"color":"#08304b"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#0c4152"},{"lightness":5}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#0b434f"},{"lightness":25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#000000"}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#0b3d51"},{"lightness":16}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"transit","elementType":"all","stylers":[{"color":"#146474"}]},{"featureType":"water","elementType":"all","stylers":[{"color":"#021019"}]}];
