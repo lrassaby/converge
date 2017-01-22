@@ -8,3 +8,7 @@
     bottom: 5px;
     line-height:10px;
 }
+
+.treeview-menu .treeview-menu {
+    padding-right:30px !important;
+}

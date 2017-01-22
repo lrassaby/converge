@@ -14,8 +14,8 @@
                                 <img src="./img/ships_${imgNumber}.jpg" alt="User Avatar">
                             </div>
                             <div class="box-body">
-                                <h3 class="widget-user-username">Nadia Carmichael</h3>
-                                <h5 class="widget-user-desc">Lead Developer</h5>
+                                <h4 class="widget-user-username">${ship.id}</h4>
+                                <h5 class="widget-user-desc">The BEST Ship ever</h5>
                             </div>
                         </div>
                     </ul>
@@ -28,7 +28,7 @@
                     <a href="index.html"></i> Convoy ${convoy.id} <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
                     <ul class="treeview-menu" style="display: none;">
                         <div class="box box-solid">
-                            This is some stuff
+                            Ships: ${convoy.ships.length}
                         </div>
                     </ul>
                     
