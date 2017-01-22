@@ -199,7 +199,9 @@
         return convoys
     }
 
+    window.Ship = Ship;
+    window.Convoy = Convoy;
     window.convoys = generateConvoys();
     window.cities = cities;
-    window.ships = ships;
+    window.ships = [];
 })();
