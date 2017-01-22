@@ -1,4 +1,22 @@
 (function () {
+    function haversine(p1, p2) {
+        Number.prototype.toRad = function() {
+            return this * Math.PI / 180;
+        };
+
+        var R = 6371; // km
+        var x1 = p2.lat-p1.lat;
+        var dLat = x1.toRad();
+        var x2 = p2.lng-p1.lng;
+        var dLon = x2.toRad();
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos(p1.lat.toRad()) * Math.cos(p2.lat.toRad()) *
+            Math.sin(dLon/2) * Math.sin(dLon/2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        var d = R * c;
+        return d;
+    }
+
     var cities = [
         {
             name: "Kepall",
@@ -57,7 +75,7 @@
         for(var i = 0; i < Math.floor(Math.random()*100); i++){
             ships.push(new Ship(new Date().toISOString() + i))
         }
-        return ships
+        return ships;
     }
 
     var routes = {
@@ -175,31 +193,53 @@
         "northAmericaSouthAmericaAfrica": combineRoutes(["houstonToPortoLaCruz", "portoLaCruzToCapeTown"]),
         "northAmericaEurope": combineRoutes(["newYorkLondon"])
     };
+    var lineKeys = Object.keys(lines);
 
-  
+
+    function randomIndex(array) {
+        return Math.floor(Math.random() * array.length);
+    }
+
 
     window.routes = routes;
     window.lines = lines;
     var Convoy = function(id, ships){
         this.id = id;
         this.ships = ships || [];
+        this.line = lineKeys[randomIndex(lineKeys)];
+        this.positionIndex = 2 + Math.floor(randomIndex(lines[this.line]) / 2);
+        this.progress = Math.random() / 5; // between 0 and 1
+        this.speed = 1;
+        this.direction = 1;
+        this.previousStop = function() {
+            return lines[this.line][this.positionIndex];
+        };
+        this.nextStop = function() {
+            return lines[this.line][this.positionIndex + this.direction];
+        };
+        this.advance = function() {
+            this.progress = this.progress + this.speed * this.direction / haversine(this.previousStop(), this.nextStop());
+        };
+        this.position = function() {
+            var previousPosition = this.previousStop();
+            var nextPosition = this.nextStop();
+
+            return {lat: previousPosition.lat + (nextPosition.lat - previousPosition.lat) * this.progress,
+                    lng: previousPosition.lng + (nextPosition.lng - previousPosition.lng) * this.progress}
+        };
     };
     Convoy.prototype.addShip = function(ship){this.ships.push(ship)};
 
-    var ships = [];
-
-    function generateConvoys(){
+    function generateConvoys() {
         var convoys = [];
-        for(var i = 0; i < Math.floor(Math.random()*100); i++){
-            var convoy = new Convoy(i, generateShips());
+        for (var i = 0; i < 10; i++) {
+            var convoy = new Convoy();
             convoy.id = i;
             convoys.push(convoy);
-            ships = ships.concat(convoy.ships);
         }
-        return convoys
+        return convoys;
     }
 
     window.convoys = generateConvoys();
     window.cities = cities;
-    window.ships = ships;
 })();
