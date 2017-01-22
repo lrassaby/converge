@@ -193,6 +193,13 @@
         "northAmericaSouthAmericaAfrica": combineRoutes(["houstonToPortoLaCruz", "portoLaCruzToCapeTown"]),
         "northAmericaEurope": combineRoutes(["newYorkLondon"])
     };
+    var linesColors = {
+        "asiaEurope": '#FF0000',
+        "europeSouthAmerica": '#00FF00',
+        "asiaNorthAmerica": '#0000FF',
+        "northAmericaSouthAmericaAfrica": '#FF00FF',
+        "northAmericaEurope": '#00FFFF'
+    }
     var lineKeys = Object.keys(lines);
 
 
@@ -214,6 +221,7 @@
         this.previousStop = function() {
             return lines[this.line][this.positionIndex];
         };
+        this.color = linesColors[this.line];
         this.nextStop = function() {
             return lines[this.line][this.positionIndex + this.direction];
         };

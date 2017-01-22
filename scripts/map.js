@@ -110,6 +110,18 @@ function renderMarkers() {
 
         var interval = window.setInterval(function() {
             convoy.advance();
+
+            let $convoy = $(marker.id),
+                position = convoy.position(),
+                textToShow;
+
+            if(!Number.isNaN(position.lat)) {
+                textToShow = `(${position.lat.toFixed(2)}, ${position.lng.toFixed(2)})`
+            } else {
+                textToShow = "Offline"
+            };
+            $convoy.find(".convoyPosition").text(textToShow)
+
             marker.setPosition(convoy.position());
         }, 100);
     }
