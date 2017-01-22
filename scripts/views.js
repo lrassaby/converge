@@ -3,9 +3,9 @@
  */
 (function () {
     const numShipImages = 10;
-    window.shipView = function (ship) {
+    window.shipView = function (ship, index) {
 
-        let imgNumber = ship.id % numShipImages;
+        let imgNumber = index % numShipImages;
         return `<li>
                     <a href="index.html"></i> Ship ${ship.id} <span class="pull-right-container"><i class="fa fa-angle-left pull-right"></i></span></a>
                     <ul class="treeview-menu" style="display: none;">

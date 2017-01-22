@@ -2,7 +2,7 @@
 
     //add ships to list
     let $shipsList = $("#shipsListView");
-    $shipsList.append(window.ships.map(ship => window.shipView(ship)));
+    $shipsList.append(window.ships.map((ship, index) => window.shipView(ship, index)));
 
     //add ships to list
     let $convoyList = $("#convoyListView");
