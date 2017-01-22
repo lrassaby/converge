@@ -61,6 +61,22 @@
         return ships
     }
 
+    var Convoy = function(ships){
+        this.ships = ships || [];
+    };
+    Convoy.prototype.addShip = function(ship){this.ships.push(ship)};
+
+    function generateConvoys(){
+        var convoys = [];
+        for(var i = 0; i < Math.floor(Math.random()*100); i++){
+            convoys.push({
+                id: i
+            })
+        }
+        return convoys
+    }
+
+    window.convoys = generateConvoys();
     window.cities = cities;
     window.ships = generateShips();
 })();
